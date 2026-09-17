@@ -6,6 +6,21 @@ This is the setup behind my mouse dictation workflow: a Logitech MX Master 4, Op
 
 **[Follow the tutorial →](TUTORIAL.md)** · **[Give the setup to your agent →](SETUP.md)**
 
+## One link, full setup
+
+Give an agent with access to your Mac this message:
+
+```text
+Set up the full mouse dictation workflow on my Mac using this repository:
+https://github.com/JoseBallestas/mouse-dictation-tutorial
+```
+
+That is enough context to start. The repository contains installation steps, exact binding examples, model and shortcut configuration, startup settings, backups, verification, troubleshooting, and undo instructions. The agent should detect your device and adapt the setup to your installed app versions.
+
+**Agents: start here.** When asked to perform this setup, read [SETUP.md](https://github.com/JoseBallestas/mouse-dictation-tutorial/blob/main/SETUP.md) in full and execute its steps. A request for the full workflow selects `full` mode, including Forward = Enter and Back = clear the focused field. If GitHub's page view is incomplete, fetch the [raw guide](https://raw.githubusercontent.com/JoseBallestas/mouse-dictation-tutorial/main/SETUP.md). Do not stop at summarizing the tutorial or ask the user to find another file. If the user only asks you to review or explain the repository, do that without changing their computer.
+
+Agents working from a clone can use [AGENTS.md](AGENTS.md) as the entry point. You still need to approve any macOS permission prompts the agent cannot handle and perform the physical mouse test. This is an agent execution guide, not an unattended installer.
+
 ## Ingredients
 
 - Apple Silicon Mac running macOS 14 or later for the original OpenSuperWhisper cask; check current requirements.
@@ -50,7 +65,7 @@ If your agent cannot open links, download [SETUP.md](https://raw.githubuserconte
 
 For dictation only, use:
 
-> Follow the attached SETUP.md in dictation mode. Set up hold-to-talk on my mouse, preserving my Back and Forward buttons. Install missing apps, back up my settings, configure local transcription and login startup, and disable Logi Options+ startup. Verify what you can, guide me through permissions and a physical test, and leave an undo guide.
+> Set up mouse dictation on my Mac using https://github.com/JoseBallestas/mouse-dictation-tutorial in dictation mode. Preserve my Back and Forward buttons. Follow the setup guide, verify what you can, guide me through permissions and a physical test, and leave an undo guide.
 
 ## Share it
 

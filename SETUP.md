@@ -12,7 +12,7 @@ This guide targets OpenLogi with the original **Starmel/OpenSuperWhisper** on an
 
 When the user asks you to perform this setup, carry out the applicable steps below. Reading or reviewing this file alone is not a request to modify their computer. Follow the user's selected mode and any existing preferences. Do not ask them to approve routine steps they have already requested.
 
-Default to `dictation` unless the user requests `full`:
+Requests to set up the **full workflow**, **full tutorial**, or **full setup** select `full` mode. Default to `dictation` for a general dictation request that does not select the full workflow. A repository URL identifies this guide; it is not by itself a request to change the computer.
 
 | Mode | Changes |
 | --- | --- |
@@ -20,6 +20,8 @@ Default to `dictation` unless the user requests `full`:
 | `full` | Dictation plus Forward = Enter and Back = select all, wait 50 ms, delete. These replace the three buttons' existing actions. |
 
 Both modes include installing missing apps, configuring local transcription, enabling their login startup, and stopping Logi Options+ from competing with OpenLogi. Preserve Options+ itself and its settings so the change can be reversed.
+
+You do not need context from the author's conversation or a second user-supplied link. Read this whole file before making changes, then perform the steps using the actual machine's state. If you cannot access the Mac, explain that limitation and provide the manual tutorial; do not report the machine as configured. Ask only for information or human actions you cannot resolve through inspection or your available tools.
 
 Explain briefly that full mode's Enter follows the focused app's behavior and its clear action deletes the contents of the focused field. Do not demonstrate either action in a real message composer, terminal, or valuable document. Use a disposable note. Never send a message as part of testing.
 
